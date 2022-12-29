@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #4158D0, #80D0C7, #85FFBD);
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+#campo-form {
+    display: flex;
+    justify-content: center;
+}
+
+#formulario {
+    padding: 4rem 2rem;
+    background-color: #F5FFFA;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+#sala-reuniao input {
+    border-radius: 4px;
+    height: 1rem;
+    width: 13rem;
+    text-align: center;
+    margin-left: 30px;
+    outline: none;
+}
+
+#sala-reuniao input:focus {
+    border-color: red;
+}
+
+#campo-view {
+    display: flex;
+    flex-direction: column;
+}
+
+#campo-form .campo-test {
+    display: flex;
+    margin-bottom: 7px;
+    justify-content: space-between;
+}
+
+#campo-form .campo-test2 {
+    display: flex;
+    margin-bottom: 7px;
+    justify-content: space-between;
+    padding-right: 118px;
+}
+
+#campo-script {
+    display: flex;
+    justify-content: center;
+}
+
+#script-pronto {
+    padding: 4rem 2rem;
+    background-color: #F5FFFA;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+#rodape {
+    display: flex;
+    justify-content: center;
+    margin: 7rem;
+}
